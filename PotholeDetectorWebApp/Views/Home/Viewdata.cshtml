@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "View the data";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>View collected data, export and search</h3>
+
+@*<p>Use this area to provide additional information.</p>*@
+
+<table id="table_id" class="display">
+    <thead>
+        <tr>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Detection Date</th>
+            <th>Number Of Potholes</th>
+            <th>Created at</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewData["Message"] as IEnumerable<PotholeDetectorWebApp.Models.Pothole>)
+        {
+            <tr>
+                <td>
+                    @item.lat
+                </td>
+                <td>
+                    @item.lon
+                </td>
+                <td>
+                    @item.date.ToShortDateString()
+                </td>
+                <td>
+                    @item.NumberOfPotholes
+                </td>
+                <td>
+                    @item.createdAt
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

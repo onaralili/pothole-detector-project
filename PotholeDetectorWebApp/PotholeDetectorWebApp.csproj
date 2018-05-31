@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.3" /> 
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\main.js" />
+    <Content Remove="wwwroot\lib\heatmap.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\main.js" />
+    <None Include="wwwroot\lib\heatmap.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20180525191700_InitalMigration.cs" />
+    <Compile Remove="Migrations\20180525205032_InitalMigration3.Designer.cs" />
+    <Compile Remove="Migrations\20180525205032_InitalMigration3.cs" />
+  </ItemGroup>
+</Project>

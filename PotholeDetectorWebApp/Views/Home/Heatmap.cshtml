@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Heatmap visualization";
+}
+
+<h3>@ViewData["Message"]</h3>
+
+
+<div id="mapid"></div>
+
+
+<style>
+    #mapid {
+        height: 450px;
+    }
+</style>
+@section Scripts{
+    <script src="~/lib/heatmap.js"></script>
+}
