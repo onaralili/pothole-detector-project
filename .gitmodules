@@ -1,0 +1,6 @@
+[submodule "PotholesDetectorGPSLoRa"]
+	path = PotholesDetectorGPSLoRa
+	url = https://github.com/claudiopastorini/PotholesDetectorGPSLoRa
+[submodule "STM32F401RE-PotholeDetector"]
+	path = STM32F401RE-PotholeDetector
+	url = https://github.com/Mickyleitor/STM32F401RE-PotholeDetector
