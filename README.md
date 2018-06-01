@@ -1,10 +1,9 @@
+<div style="text-align:center">
+  <img src="https://raw.githubusercontent.com/onaralili/pothole-detector-project/master/PotholeDetectorWebApp/wwwroot/images/logo.svg?sanitize=true" width="150">
+</div>
+
 ## About
 The Pothole Detector is a group project and developed during the course Pervasive Systems. The prototype is able to detect potholes on roads using accelerometer and report back to a remote server. There is also a web app which allows user to visualize and view data collected by the device. Read above for detail information.
-<center>
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="222" viewBox="0 0 428 222">
-  <polygon fill="#FFF" fill-rule="evenodd" stroke="#000" points="1 1 167.295 1 172.977 18.705 167.295 23.514 167.295 30.915 179.719 30.915 192.231 54.738 222.996 41.886 230.226 59.835 261.437 46.603 261.437 23.514 254.767 18.705 261.437 7.79 273.209 7.79 280.766 1 427 1 208.954 222"/>
-</svg>
-</center>
 
 ## Submodules
 These modules were being developed during the group project.
