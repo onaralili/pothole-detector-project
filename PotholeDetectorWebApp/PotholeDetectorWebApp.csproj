@@ -22,14 +22,23 @@
   <ItemGroup>
     <Content Remove="wwwroot\lib\main.js" />
     <Content Remove="wwwroot\lib\heatmap.js" />
+    <Content Remove="wwwroot\images\logo.svg" />
+    <Content Remove="wwwroot\lib\heatmap.min.js" />
+    <Content Remove="wwwroot\lib\leaflet-heatmap.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\lib\main.js" />
     <None Include="wwwroot\lib\heatmap.js" />
+    <None Include="wwwroot\images\logo.svg" />
+    <None Include="wwwroot\lib\heatmap.min.js" />
+    <None Include="wwwroot\lib\leaflet-heatmap.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Migrations\20180525191700_InitalMigration.cs" />
     <Compile Remove="Migrations\20180525205032_InitalMigration3.Designer.cs" />
     <Compile Remove="Migrations\20180525205032_InitalMigration3.cs" />
+    <Compile Remove="Migrations\20180525191700_InitalMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180525193844_InitalMigration1.Designer.cs" />
+    <Compile Remove="Migrations\20180525193844_InitalMigration1.cs" />
   </ItemGroup>
 </Project>

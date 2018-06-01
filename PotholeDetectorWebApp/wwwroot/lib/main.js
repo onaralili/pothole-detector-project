@@ -2,6 +2,7 @@
 
     $('#table_id').DataTable({
         select: true,
+        paging:false,
         dom: 'Bfrtip',
          buttons: [
         {
