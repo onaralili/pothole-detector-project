@@ -4,3 +4,6 @@
 [submodule "STM32F401RE-PotholeDetector"]
 	path = STM32F401RE-PotholeDetector
 	url = https://github.com/Mickyleitor/STM32F401RE-PotholeDetector
+[submodule "node-serialport-reader"]
+	path = node-serialport-reader
+	url = https://github.com/onaralili/node-serialport-reader
