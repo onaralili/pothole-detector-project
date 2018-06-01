@@ -15,6 +15,8 @@ These modules were being developed during the group project.
 
 **PotholeDetectorWebApp** is a web app for visualizing the data received from LoRa. The data can be seen on table view and is exportable as a dataset. The app also offers heatmap for better visualization.
 
+**node-serialport-reader** is a node app that reads data from via serial port. We used this app to read and insert incoming data to database.
+
 ## Used board and sensor
  The application uses [X-NUCLEO-IKS01A2](http://www.st.com/en/ecosystems/x-nucleo-iks01a2.html)'s built-in [LSM6DSL](http://www.st.com/en/mems-and-sensors/lsm6dsl.html) accelerometer sensor on top of the [NUCLEO-F401RE](http://www.st.com/en/ecosystems/x-nucleo-iks01a2.html) board.
  For communcation between STM32 board and LoRa receiver and GPS position [Seeduino LoRaWAN](https://www.seeedstudio.com/Seeeduino-LoRaWAN-p-2780.html) is being used.
@@ -34,6 +36,6 @@ Building is straightforward. Clone the app and build it using Visual Studio or V
 ## Credits
 | Student        | LinkedIn           | Project  |
 | ------------- |-------------| -----|
-| Onar Alili     | [https://www.linkedin.com/in/onaralili/](https://www.linkedin.com/in/onaralili/)  | PotholeDetectorWebApp |
+| Onar Alili     | [https://www.linkedin.com/in/onaralili/](https://www.linkedin.com/in/onaralili/) | PotholeDetectorWebApp, node-serialport-reader|
 | Claudio Pastorini      | [https://www.linkedin.com/in/claudio-pastorini/](https://www.linkedin.com/in/claudio-pastorini/)       | PotholesDetectorGPSLoRa |
 | Michele La Malva | [https://www.linkedin.com/in/michele-la-malva-moreno/](https://www.linkedin.com/in/michele-la-malva-moreno/)      | STM32F401RE-PotholeDetector |
