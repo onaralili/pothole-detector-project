@@ -11,7 +11,6 @@ There is also a web app which allows user to visualize and view data collected b
 Read above for detail information.
 
 ## Submodules
-These modules were being developed during the group project.
 
 * `PotholesDetectorGPSLoRa` is Arduino project for **GPS managment and LoRa communcation**. Once I²C message is received with the number of pothole detected, it transmits the message via LoRa with GPS position and the number of potholes. 
 Visit the [repository](https://github.com/claudiopastorini/PotholesDetectorGPSLoRa) for more
