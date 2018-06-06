@@ -15,12 +15,12 @@ try {
                 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                 maxZoom: 20,
                 id: 'mapbox.streets',
-                accessToken: ''
+                accessToken: 'pk.eyJ1Ijoib25hcmFsaWxpIiwiYSI6ImNqaG5lYzJ6ZTNwZmYzY3BlMDNnYjJmemwifQ.HoLrBeVrEG9w8LQurldLiQ'
             });
 
 
             var testData = {
-              max: 8,
+              max: 10,
               data: responseData
             };
 
