@@ -39,6 +39,7 @@ The app is written in .NET Core with a bunch of JavaScript libraries such as hea
 Building is straightforward. Clone the app and build it using Visual Studio or Visual Studio Code.
 
 ## Screenshots/Pictures
+<img src="https://raw.githubusercontent.com/Mickyleitor/STM32F401RE-PotholeDetector/master/Docs/Board-connections.png" width="692">
 <img width="600" src="https://raw.githubusercontent.com/onaralili/pothole-detector-project/master/img.jpg"/>
 <img width="600" src="https://raw.githubusercontent.com/onaralili/pothole-detector-project/master/Screen%20Shot%202018-06-01%20at%2011.28.41%20AM.png"/>
 <img width="600" src="https://raw.githubusercontent.com/onaralili/pothole-detector-project/master/Screen%20Shot%202018-06-01%20at%2011.23.15%20AM.png"/>
