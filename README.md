@@ -44,6 +44,14 @@ Building is straightforward. Clone the app and build it using Visual Studio or V
 <img width="600" src="https://raw.githubusercontent.com/onaralili/pothole-detector-project/master/Screen%20Shot%202018-06-01%20at%2011.28.41%20AM.png"/>
 <img width="600" src="https://raw.githubusercontent.com/onaralili/pothole-detector-project/master/Screen%20Shot%202018-06-01%20at%2011.23.15%20AM.png"/>
 
+## Slides
+Inital idea : https://www.slideshare.net/Onerli/pothole-detector-inital-idea
+
+User evaluation : https://www.slideshare.net/Onerli/pothole-detector-user-evaluation
+
+MVP : https://www.slideshare.net/Onerli/pothole-detector-mvp
+
+Final presantation : https://www.slideshare.net/Onerli/pothole-detector-final-presantation
 
 ## Credits
 | Student        | LinkedIn           | Project  |
