@@ -16,7 +16,7 @@ Read above for detail information.
 Visit the [repository](https://github.com/claudiopastorini/PotholesDetectorGPSLoRa) for more
 
 * `STM32F401RE-PotholeDetector` is Nucleo-STM32F401RE and X-NUCLEO-IKS01A2 code about **free fall detection** and sending though I²C. 
-Visit the [repository](https://github.com/Mickyleitor/STM32F401RE-PotholeDetector/tree/afc81e0565daf053700544a7067f0d9a2bb6e741) for more.
+Visit the [repository](https://github.com/Mickyleitor/STM32F401RE-PotholeDetector) for more.
 
 * `PotholeDetectorWebApp` is a web app for **visualizing the data received** from LoRa. The data can be seen on table view and is exportable as a dataset. The app also offers heatmap for better visualization.
 
